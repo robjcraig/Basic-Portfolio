@@ -1,63 +1,74 @@
 * {
-	border: solid black 1px;
 	width: 100%;
 }
 body {
 	height: 100%;
 	width: 100%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 .header {
-	width: 100%;
+	width: 960px;
 	height: 90px;
-	background-color: #F0E68C;
+	background-color: #ffffff;
+	border: solid #cccccc
 
 }
 .Name {
-	margin-left: 60px;
+	margin-left: 50px;
+	margin-top: 5px;
+	padding-top: 1px;
 	width: 230px;
 	height: 80px;
 	color: white;
-	background-color: #00FA9A;
+	background-color: #44d8be;
 	text-align: center;
-	font-family: 'calibri'
+	font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
 .navbar {
 	position: relative;
 	float: right;
 	margin-top: -70px;
-	margin-right: 60px;
+	margin-right: 12%;
 	width: 300px;
 	height: 70px;
 	float: right;
 	text-align: center;
-	font-family: 'calibri';
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 14px;
+	color: darkgray;
 	background-color: white;
 }
 
-#MainBody {
+.MainBody {
 	position: relative;
-	width: 100%
+	width: 960px;
 	height: 100%;
+	background-image: url("images/vintage-concrete.png")
+	
 }
 
 #Portfolio {
 	margin-top: 50px;
-	margin-left: 150px;
+	margin-left: 50px;
 	height: 454px;
 	width: 454px;
+	border: solid #dddddd
 }
 
 .social {
 	position: relative;
-	padding-top: 20px;
-	margin-left: 70%;
-	margin-top: -450px;
+	padding-top: 15px;
+	margin-left: 580px;
+	margin-top: -400px;
 	height: 250px;
-	width: 300px;
+	width: 270px;
 	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: white;
 }
 #Box1 {
+	
 	width: 225px;
 	height: 225px;
 }
@@ -81,9 +92,12 @@ body {
 }
 #Footer {
 	position: relative;
-	margin-top: 25px;
+	margin-top: 80px;
+	padding-top: 1px;
 	width: 100%;
 	height: 60px;
 	text-align: center;
-	font-family: 'calibri'
+	font-family: 'calibri';
+	color: white;
+	background-color: #666666;
 }
