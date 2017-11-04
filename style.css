@@ -2,7 +2,6 @@
 	width: 100%;
 }
 body {
-	height:
 	width: 100%;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -11,7 +10,6 @@ body {
 	height: 90px;
 	background-color: #ffffff;
 	border: solid #cccccc
-
 }
 .Name {
 	margin-left: 50px;
@@ -23,7 +21,6 @@ body {
 	background-color: #4aaaa5;
 	text-align: center;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-
 }
 .navbar {
 	position: relative;
@@ -39,33 +36,29 @@ body {
 	color: red;
 	background-color: white;
 }
-
 .MainBody {
 	position: relative;
 	width: 960px;
 	height: 475px;
 	background-image: url("images/vintage-concrete.png")
-	
 }
-
 .about {
-	margin-top: 0px;
 	margin-left: 50px;
-	height: 454px;
+	height: 350px;
 	width: 454px;
 	border: solid #dddddd;
 	background-color:#ffffff;
 }
-
-.social {
+#asocial {
 	position: relative;
-	padding-top: 15px;
-	margin-left: 520px;
-	margin-top: -300px;
-	height: 250px;
-	width: 270px;
-	text-align: center;
+	padding: 15px;
+	left: 600px;
+	bottom: 300px;
+	border: solid 1px black;
+	width: 250px;
+	height: 200px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
 	color: #4aaaa5;
 	background-color: white;
 }
@@ -92,8 +85,9 @@ body {
 	width: 225px;
 	height: 225px;
 }
-
 #Footer {
+	position: relative;
+	bottom: -65px;
 	width: 960px;
 	height: 50px;
 	text-align: center;
@@ -101,16 +95,24 @@ body {
 	color: white;
 	background-color: #666666;
 }
-
 #a {
 	margin: 15px;
 }
 #aa,#b,#c {
 	color: red;
 }
-#asocial {
+.aMainBody {
 	position: relative;
-	left: 40px;
-	bottom: 100px;
+	width: 500px;
+	height: 300px;
+	background-image: url("images/vintage-concrete.png")
 	border: solid 1px black;
+}
+.ContactMe {
+	position: relative;
+	right: -80px;
+	bottom: -70px;
+	width: 454px;
+	height: 350px;
+	background-color: white;
 }
