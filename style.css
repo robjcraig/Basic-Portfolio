@@ -43,7 +43,7 @@ body {
 .MainBody {
 	position: relative;
 	width: 960px;
-	height: 100%;
+	height: 475px;
 	background-image: url("images/vintage-concrete.png")
 	
 }
@@ -92,14 +92,12 @@ body {
 	width: 225px;
 	height: 225px;
 }
+
 #Footer {
-	position: relative;
-	margin-top: 80px;
-	padding-top: 1px;
-	width: 100%;
-	height: 60px;
+	width: 960px;
+	height: 50px;
 	text-align: center;
-	font-family: 'calibri';
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: white;
 	background-color: #666666;
 }
