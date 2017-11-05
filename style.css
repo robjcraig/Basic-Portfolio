@@ -104,8 +104,9 @@ p {
 	color: darkgrey;
 }
 .ContactMe {
+	padding-left: 40px;
 	position: relative;
-	width: 650px;
+	width: 610px;
 	height: 350px;
 	background-color: white;
 	border: solid #dddddd;
@@ -144,10 +145,42 @@ p {
 }
 #Portfolio {
 	padding-left: 35px;
-	width: 650px;
+	width: 615px;
 	height: 450px;
 	background-color: white;
 	border: solid #dddddd;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
+}
+#portfoliosocial {
+	position: relative;
+	top: -430px;
+	right: -667px;
+	padding: 15px;
+	border: solid #dddddd;
+	width: 240px;
+	height: 200px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	color: #4aaaa5;
+	background-color: white;
+}
+div.wrapper{
+	float:left;
+	position:relative;
+}
+div.description{
+	position: absolute;
+	bottom:15px;
+	left:0px;
+	width:175px;
+	height: 25%;
+	background-color:#4aaaa5;
+	color: white;
+}
+p.description_content {
+	padding:10px;
+	margin:0px;
+	font-size: 20px;
+	text-align: center;
 }
