@@ -39,18 +39,19 @@ body {
 .about {
 	top: 100px;
 	width: 650px;
-	height: 350px;
+	height: 373px;
 	border: solid #dddddd;
 	background-color:#ffffff;
 }
 p {
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	letter-spacing: 1px;
 }
 #asocial {
 	position: relative;
 	padding: 15px;
 	left: 664px;
-	bottom: 282px;
+	bottom: 340px;
 	border: solid #dddddd;
 	width: 240px;
 	height: 200px;
@@ -183,4 +184,15 @@ p.description_content {
 	margin:0px;
 	font-size: 20px;
 	text-align: center;
+}
+#PortfolioFooter {
+	position: relative;
+	top: -236px;
+	width: 960px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	background-color: #666666;
 }
